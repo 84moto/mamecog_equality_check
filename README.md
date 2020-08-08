@@ -1,0 +1,2 @@
+# mamecog_equality_check
+mamecogとKerasの出力が同等であることの確認
