@@ -1,10 +1,10 @@
 # mamecog_equality_check
 
-まめコグ（[https://github.com/84moto/mamecog](https://github.com/84moto/mamecog)）とKerasの出力が同等であることを確認するためのツール
+まめコグ（[https://github.com/84moto/mamecog](https://github.com/84moto/mamecog)）とKerasの中間層の出力が同等であることを確認するためのツール
 
 ## 使用方法
 
-この例では、[https://github.com/84moto/mamecog](https://github.com/84moto/mamecog)にあるmamecog（まめコグ）のSample.csの出力をKerasの出力と比較します。
+この例では、[https://github.com/84moto/mamecog](https://github.com/84moto/mamecog)にあるmamecog（まめコグ）のSample.csの中間層の出力をKerasの出力と比較します。
 
 [https://github.com/84moto/mamecog](https://github.com/84moto/mamecog)の例と同様に、KerasでCNNの学習済みモデルをmy_model.h5として保存し、dump_pool_output.pyを実行すると、下記のように２つめのプーリング層の出力が表示されます。
 
