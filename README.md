@@ -4,7 +4,9 @@
 
 ## 使用方法
 
-dump_pool_output.pyを実行すると、下記のように２つめのプーリング層の出力が表示されます。
+この例では、[https://github.com/84moto/mamecog](https://github.com/84moto/mamecog)にあるmamecog（まめコグ）のSample.csの出力をKerasの出力と比較します。
+
+[https://github.com/84moto/mamecog](https://github.com/84moto/mamecog)の例と同様に、KerasでCNNの学習済みモデルをmy_model.h5として保存し、dump_pool_output.pyを実行すると、下記のように２つめのプーリング層の出力が表示されます。
 
 ```
 Plane 0
